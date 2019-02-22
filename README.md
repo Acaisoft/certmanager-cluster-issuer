@@ -1,2 +1,2 @@
 # certmanager-cluster-issuer
-Certmanager ClusterIssuer resource
+Helm chart for Certmanager ClusterIssuer resource

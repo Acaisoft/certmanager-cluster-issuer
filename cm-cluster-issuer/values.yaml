@@ -1,0 +1,16 @@
+# Default values for cm-cluster-issuer.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nameOverride: ""
+fullnameOverride: ""
+
+# Example Cluster Issuer Specififcation
+clusterIssuer:
+  spec:
+    acme:
+      server: https://acme-v02.api.letsencrypt.org/directory
+      email: support@example.com
+      privateKeySecretRef:
+        name: letsencrypt-prod
+      http01: {}
