@@ -9,8 +9,12 @@ fullnameOverride: ""
 clusterIssuer:
   spec:
     acme:
-      server: https://acme-v02.api.letsencrypt.org/directory
-      email: support@example.com
+      email: support@acaisoft.com
+      solvers: 
+      - http01:
+          ingress:
+            class: nginx
       privateKeySecretRef:
+        key: ""
         name: letsencrypt-prod
-      http01: {}
+      server: https://acme-v02.api.letsencrypt.org/directory

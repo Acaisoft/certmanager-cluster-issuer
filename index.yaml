@@ -3,11 +3,20 @@ entries:
   cm-cluster-issuer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-02-22T10:38:46.756885+01:00
+    created: 2020-01-02T15:49:47.059398486+01:00
+    description: A Helm chart for Kubernetes
+    digest: bdf395d6c4358cb1b7fa6510d3b194816a5b260b41384ae01d372757ea3643b3
+    name: cm-cluster-issuer
+    urls:
+    - cm-cluster-issuer-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2020-01-02T15:49:47.058968742+01:00
     description: A Helm chart for Kubernetes
     digest: 6ccd9d0f932c6f87c0c25b655f4153f625b3eb9ef326d02b1597a9305f32bd78
     name: cm-cluster-issuer
     urls:
     - cm-cluster-issuer-0.1.0.tgz
     version: 0.1.0
-generated: 2019-02-22T10:38:46.756474+01:00
+generated: 2020-01-02T15:49:47.056804614+01:00
